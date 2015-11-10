@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="msm7x30"
+            fetch="https://github.com"
+            review="review.msm7x30.org" />
+
+    <remote name="yyou"
+            fetch="https://bitbucket.org" />
+
+    <!-- EIFFEL projects -->
+    <!--
+    <project name="yyou/android_device_fujitsu_f11eif" path="device/fujitsu/f11eif" revision="cm-12.1" />
+    <project name="yyou/android_kernel_fujitsu_f11eif" path="kernel/fujitsu/f11eif" revision="cm-12.1" />
+    <project name="yyou/android_vendor_fujitsu_f11eif" path="vendor/fujitsu/f11eif" revision="cm-12.1" />
+     -->
+
+    <!-- msm7x30 projects -->
+    <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" revision="cm-12.1" />
+
+    <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-12.1-caf-7x30" />
+
+    <!-- TWRP from OmniROM
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="omnirom" revision="android-5.1" /> -->
+</manifest>
