@@ -8,9 +8,6 @@ cherries+=(78604)
 # build: Add option to disable block-based ota
 cherries+=(102837)
 
-# Restart WLAN driver after receiving firmware crashed message
-cherries+=(89453)
-
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(92943)
 
